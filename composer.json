@@ -1,0 +1,24 @@
+{
+  "name": "intop/laravel-admin-cofnig",
+  "version": "0.0.1",
+  "description": "Config extension for laravel-admin",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0.0",
+    "laravel/framework": ">=9.0",
+    "dcat/laravel-admin": ">=2.2.3-beta"
+  },
+  "autoload": {
+    "psr-4": {
+      "Intop\\Admin\\Config\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Intop\\Admin\\Config\\AppConfigServiceProvider"
+      ]
+    }
+  }
+}
