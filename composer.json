@@ -1,6 +1,6 @@
 {
   "name": "intop/laravel-admin-cofnig",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Config extension for laravel-admin",
   "type": "library",
   "license": "MIT",
